@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "SpeedJeck")(type "KiCad")(uri "${KIPRJMOD}/SpeedJeck.kicad_sym")(options "")(descr ""))
+)
