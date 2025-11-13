@@ -1,6 +1,6 @@
 {
   "board": {
-    "active_layer": 7,
+    "active_layer": 0,
     "active_layer_preset": "",
     "auto_track_width": true,
     "hidden_netclasses": [],
@@ -8,12 +8,12 @@
     "high_contrast_mode": 0,
     "net_color_mode": 1,
     "opacity": {
-      "images": 1.0,
+      "images": 0.6,
       "pads": 1.0,
-      "shapes": 0.550000011920929,
+      "shapes": 1.0,
       "tracks": 1.0,
-      "vias": 0.7300000190734863,
-      "zones": 0.6899999976158142
+      "vias": 1.0,
+      "zones": 0.6
     },
     "selection_filter": {
       "dimensions": true,
@@ -43,6 +43,7 @@
       "drawing_sheet",
       "bitmaps",
       "pads",
+      "zones",
       "drc_warnings",
       "drc_exclusions",
       "locked_item_shadows",
@@ -58,7 +59,7 @@
     "ssh_key": ""
   },
   "meta": {
-    "filename": "SpeedJeck.kicad_prl",
+    "filename": "SpeedJeck_PDB-BACK.kicad_prl",
     "version": 5
   },
   "net_inspector_panel": {
@@ -114,26 +115,14 @@
   "project": {
     "files": [
       {
-        "name": "SpeedJeck.kicad_pcb",
-        "open": true,
-        "window": {
-          "display": 1,
-          "maximized": false,
-          "pos_x": 1921,
-          "pos_y": 32,
-          "size_x": 1917,
-          "size_y": 1046
-        }
-      },
-      {
-        "name": "SpeedJeck.kicad_sch",
+        "name": "SpeedJeck_PDB-BACK.kicad_pcb",
         "open": false,
         "window": {
-          "display": 1,
+          "display": 0,
           "maximized": false,
-          "pos_x": 1921,
+          "pos_x": 452,
           "pos_y": 32,
-          "size_x": 955,
+          "size_x": 728,
           "size_y": 1046
         }
       }
