@@ -1,6 +1,6 @@
 {
   "board": {
-    "active_layer": 7,
+    "active_layer": 5,
     "active_layer_preset": "",
     "auto_track_width": true,
     "hidden_netclasses": [],
@@ -43,14 +43,15 @@
       "drawing_sheet",
       "bitmaps",
       "pads",
+      "zones",
       "drc_warnings",
       "drc_exclusions",
       "locked_item_shadows",
       "conflict_shadows",
       "shapes"
     ],
-    "visible_layers": "ffffffff_ffffffff_ffffffff_ffffffff",
-    "zone_display_mode": 0
+    "visible_layers": "ffffffff_ffffffff_ffffffff_fffffffb",
+    "zone_display_mode": 1
   },
   "git": {
     "repo_type": "",
@@ -117,24 +118,12 @@
         "name": "SpeedJeck.kicad_pcb",
         "open": true,
         "window": {
-          "display": 1,
-          "maximized": false,
-          "pos_x": 1921,
-          "pos_y": 32,
-          "size_x": 1917,
-          "size_y": 1046
-        }
-      },
-      {
-        "name": "SpeedJeck.kicad_sch",
-        "open": false,
-        "window": {
-          "display": 1,
-          "maximized": false,
-          "pos_x": 1921,
-          "pos_y": 32,
-          "size_x": 955,
-          "size_y": 1046
+          "display": 0,
+          "maximized": true,
+          "pos_x": 224,
+          "pos_y": 461,
+          "size_x": 1316,
+          "size_y": 594
         }
       }
     ]

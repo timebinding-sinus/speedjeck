@@ -1,0 +1,1845 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "5ba30863-a970-4c9d-a348-1bd0c1648762")
+	(paper "A4")
+	(title_block
+		(rev "1")
+		(company "CERCELL")
+		(comment 2 "1v")
+		(comment 3 "Emulation a keyboard typing,")
+	)
+	(lib_symbols
+		(symbol "Device:LED"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "LED"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Light emitting diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Pins" "1=K 2=A"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "LED diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "LED* LED_SMD:* LED_THT:*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "LED_0_1"
+				(polyline
+					(pts
+						(xy -3.048 -0.762) (xy -4.572 -2.286) (xy -3.81 -2.286) (xy -4.572 -2.286) (xy -4.572 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.778 -0.762) (xy -3.302 -2.286) (xy -2.54 -2.286) (xy -3.302 -2.286) (xy -3.302 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 0) (xy 1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -1.27) (xy -1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -1.27) (xy 1.27 1.27) (xy -1.27 0) (xy 1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "LED_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "power:+5V"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "+5V"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+5V\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "+5V_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+5V_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(circle
+		(center 69.85 57.15)
+		(radius 1.7961)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 000a4fba-edf3-4d15-8895-6e1a9aafeb72)
+	)
+	(rectangle
+		(start 193.04 38.1)
+		(end 218.44 40.005)
+		(stroke
+			(width 1)
+			(type dash_dot_dot)
+			(color 40 207 255 1)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 008cc250-db3e-49fd-bd0a-05589fcc71ba)
+	)
+	(rectangle
+		(start 227.33 33.02)
+		(end 247.65 34.29)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 03c8477e-db35-416a-a1d1-e7e85ab4e671)
+	)
+	(rectangle
+		(start 88.9 39.37)
+		(end 111.76 40.64)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 046c10fd-6894-4001-b7d5-0b444a817084)
+	)
+	(rectangle
+		(start 26.67 35.56)
+		(end 91.44 39.37)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 1a5f5f12-2fb9-4219-a160-892e02db3fdb)
+	)
+	(rectangle
+		(start 143.51 114.3)
+		(end 163.83 123.19)
+		(stroke
+			(width 0)
+			(type dash_dot_dot)
+			(color 40 207 255 1)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 1ddd44f5-2400-4aaa-9b4b-6235bd8338ac)
+	)
+	(rectangle
+		(start 218.44 96.52)
+		(end 255.27 100.33)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 2b9150f3-2e5f-4482-92d8-44879dec98df)
+	)
+	(rectangle
+		(start 91.44 35.56)
+		(end 128.27 39.37)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 2d37260c-4eea-40a2-a4f6-e7b6cf498614)
+	)
+	(rectangle
+		(start 74.93 156.21)
+		(end 93.98 157.48)
+		(stroke
+			(width 0)
+			(type dash_dot_dot)
+			(color 40 207 255 1)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 2e219a07-ae1b-4256-8289-3b597e3c1eb3)
+	)
+	(rectangle
+		(start 153.67 96.52)
+		(end 218.44 100.33)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 2f773d51-cff7-48ce-a625-fb258ce33f09)
+	)
+	(rectangle
+		(start 162.56 34.29)
+		(end 227.33 38.1)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 375aee5b-c32d-4de5-9b37-a84de8d929fb)
+	)
+	(rectangle
+		(start 215.9 100.33)
+		(end 238.76 101.6)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 4e61dabc-fc2f-4fd9-a540-569009e5dd61)
+	)
+	(rectangle
+		(start 15.24 123.19)
+		(end 135.89 195.58)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 4ef4407a-5868-4554-9a94-93db5af8f009)
+	)
+	(rectangle
+		(start 91.44 34.29)
+		(end 111.76 35.56)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 531d3ace-4cf2-4552-b8a0-794ca2f3afdc)
+	)
+	(rectangle
+		(start 218.44 95.25)
+		(end 238.76 96.52)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 5b7d1e74-0d07-4c8a-85fd-641d4eea20f7)
+	)
+	(circle
+		(center 69.85 40.64)
+		(radius 1.7961)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 5c9c8a4d-c924-4a74-9fc2-d758f8c871c8)
+	)
+	(circle
+		(center 92.71 157.48)
+		(radius 2.8398)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 6009e4dd-f3b6-4089-bbf6-d9b08898a909)
+	)
+	(arc
+		(start 69.85 40.64)
+		(mid 73.9043 48.632)
+		(end 71.12 57.15)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 61be7a92-1ab4-4f98-a4a9-743559b1dbca)
+	)
+	(rectangle
+		(start 57.15 39.37)
+		(end 82.55 41.275)
+		(stroke
+			(width 1)
+			(type dash_dot_dot)
+			(color 40 207 255 1)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 6815c164-8030-4761-a5e1-1fefa12157e6)
+	)
+	(rectangle
+		(start 16.51 128.27)
+		(end 36.83 137.16)
+		(stroke
+			(width 0)
+			(type dash_dot_dot)
+			(color 40 207 255 1)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 702b8925-f875-4289-b387-808162bedb36)
+	)
+	(rectangle
+		(start 15.24 17.78)
+		(end 138.43 77.47)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 7b304c0f-0cb8-4905-ad74-2487f2ac1fae)
+	)
+	(rectangle
+		(start 224.79 38.1)
+		(end 247.65 39.37)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 7b8e4009-aa79-419f-8be3-960cd96579b2)
+	)
+	(rectangle
+		(start 66.04 148.59)
+		(end 90.17 168.91)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 86c66697-4e22-4afe-b784-100564f66101)
+	)
+	(rectangle
+		(start 152.4 52.07)
+		(end 172.72 60.96)
+		(stroke
+			(width 0)
+			(type dash_dot_dot)
+			(color 40 207 255 1)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 98aa8ab2-2280-4214-ab05-5b8143027127)
+	)
+	(rectangle
+		(start 227.33 34.29)
+		(end 264.16 38.1)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid a682870f-1ef1-4ef1-81fe-68394c7cf4ff)
+	)
+	(rectangle
+		(start 184.15 100.33)
+		(end 209.55 102.235)
+		(stroke
+			(width 1)
+			(type dash_dot_dot)
+			(color 40 207 255 1)
+		)
+		(fill
+			(type none)
+		)
+		(uuid aef24ed1-5dd4-4820-95e3-78e789658948)
+	)
+	(rectangle
+		(start 144.78 17.78)
+		(end 271.78 77.47)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid af589625-2a52-46b6-9ebc-c818f827e17f)
+	)
+	(rectangle
+		(start 137.16 81.28)
+		(end 280.67 137.16)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid af924554-a324-4f83-846c-045c18d0f9e7)
+	)
+	(rectangle
+		(start 93.98 156.21)
+		(end 120.65 168.91)
+		(stroke
+			(width 0)
+			(type dash_dot_dot)
+			(color 40 207 255 1)
+		)
+		(fill
+			(type none)
+		)
+		(uuid c1a85b00-9215-476c-9ab5-22edd7adfa8f)
+	)
+	(rectangle
+		(start 16.51 53.34)
+		(end 36.83 62.23)
+		(stroke
+			(width 0)
+			(type dash_dot_dot)
+			(color 40 207 255 1)
+		)
+		(fill
+			(type none)
+		)
+		(uuid d736c8c5-c57e-4dd6-aa4e-0fe66cc3f1db)
+	)
+	(text "ЛЕВАЯ РУКА\nУКАЗАТЕЛЬНЫЙ ПАЛЕЦ\nДотронутся и держать контакт диода"
+		(exclude_from_sim no)
+		(at 78.74 71.12 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "05f9891b-bfb8-4ecf-9a3b-c1a43ee970a5")
+	)
+	(text "БАТТЕРЯ ОТОПЛЕНИЯ НАСКОЛЬКО Я ЗНАЮ ПОДКЛЮЧЕНА К ЗАЗЕМЛЕНИЮ, этот значит, что по баттарее течет электро-поле с жилого дома,.\nИ если к ней подключить в сеть трансформатор, то можно получить некоторое кол-во электро-поля\n\nИ ДИОД ЯРЧЕ"
+		(exclude_from_sim no)
+		(at 208.28 130.81 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "06860a00-95dc-4f1e-a98a-ac8789b790f2")
+	)
+	(text "БАТТЕРЕЯ (отопления)"
+		(exclude_from_sim no)
+		(at 100.33 41.91 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "08f953b3-0df3-4e27-99c0-81dd1836328f")
+	)
+	(text "5 ВОЛЬТ (+ или -)"
+		(exclude_from_sim no)
+		(at 162.56 59.69 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "0a14458b-3e50-40d6-9f40-98c27a3718fe")
+	)
+	(text "Диод белый,."
+		(exclude_from_sim no)
+		(at 54.61 135.89 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "0d0aa747-0521-477c-b657-02b166e348bc")
+	)
+	(text "TERMINS\nvoltage-pole\nwall-pole\nbody-pole"
+		(exclude_from_sim no)
+		(at 68.58 114.3 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "12b208da-42d2-44f6-a381-d13cd11f19ae")
+	)
+	(text "УХВАТИТЬ БАНКУ РУКОЙ\n"
+		(exclude_from_sim no)
+		(at 123.19 153.67 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "12c61db5-2d32-48c3-80f1-2eea145e3512")
+	)
+	(text "5v вольт (вроде постоянного тока) подаются с блока питания поключенного в сеть (~)220v"
+		(exclude_from_sim no)
+		(at 69.85 99.06 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "1feb495d-62ae-4f45-8cc6-f5f6aa15049c")
+	)
+	(text "LED диод белый, синий на 3.6v"
+		(exclude_from_sim no)
+		(at 69.85 104.14 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "2307da4c-94c8-4525-8e8d-ce1797437333")
+	)
+	(text "Стена (бумажные обой)\nбез обой тоже работает"
+		(exclude_from_sim no)
+		(at 71.12 36.83 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "30d0478d-badf-459b-960f-590d4e135f39")
+	)
+	(text "ВОДА"
+		(exclude_from_sim no)
+		(at 77.47 161.29 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "5058177b-d801-49cb-9b8e-97f92f11a96d")
+	)
+	(text "УЛИЦА Ветер, снег, низкая t"
+		(exclude_from_sim no)
+		(at 205.74 86.36 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "58722914-e346-4c25-a1da-850c15e7a2eb")
+	)
+	(text "БАНКА (СТЕКЛО)"
+		(exclude_from_sim no)
+		(at 78.74 166.37 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "63a74781-504a-442e-9de2-fc57b3b5ad60")
+	)
+	(text "ОКНО"
+		(exclude_from_sim no)
+		(at 109.22 33.02 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "7431b479-0fd7-4e3b-be7e-f80fb73e94e4")
+	)
+	(text "СТЕКЛО - ДИАЛЕКТРИК"
+		(exclude_from_sim no)
+		(at 77.47 176.53 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "7f367360-4bdd-4898-a61b-fcf3ec7711f3")
+	)
+	(text "ОДНАКО РУКА КАК-ТО ПЕРЕНОСИТ ?-ПОЛЯ ЧЕРЕЗ СТЕКЛО-ВОДА \nК проводу и далее через диод, что заставляет его светится"
+		(exclude_from_sim no)
+		(at 78.74 181.61 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "7fdbe594-5de5-4cf7-9d13-05c900c91f68")
+	)
+	(text "УЛИЦА Ветер, снег, низкая t"
+		(exclude_from_sim no)
+		(at 214.63 24.13 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "869f3393-60b9-4a62-aa88-0f3a2a2c6f83")
+	)
+	(text "ПРАВАЯ РУКА\nДотронутся и держать стену\nПалец - диод тусклый\nЛадонью - диод ярче\n\n(Видимо Площать поверхности важна)"
+		(exclude_from_sim no)
+		(at 114.3 60.96 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "905575ff-ec15-4a26-9143-efa22e17df8b")
+	)
+	(text "ОКНО"
+		(exclude_from_sim no)
+		(at 245.11 31.75 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "929f2f1b-4d60-4f66-9162-cabc3d4d8839")
+	)
+	(text "5 ВОЛЬТ (+ или -)"
+		(exclude_from_sim no)
+		(at 153.67 121.92 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "966757a0-37f1-4da8-b791-037344c82b1d")
+	)
+	(text "БАТТЕРЕЯ (отопления)"
+		(exclude_from_sim no)
+		(at 227.33 102.87 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "a79e6103-6abf-487c-a479-4c46a2fd7323")
+	)
+	(text "БАТТЕРЕЯ (отопления)"
+		(exclude_from_sim no)
+		(at 236.22 40.64 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "b47c0f9e-9014-4cac-8ff3-b4178172072b")
+	)
+	(text "УЛИЦА Ветер, снег, низкая t"
+		(exclude_from_sim no)
+		(at 78.74 25.4 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "bc569fdc-eb62-46c7-9458-db49a3ebaa08")
+	)
+	(text "Диод белый,."
+		(exclude_from_sim no)
+		(at 190.5 59.69 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "bc6b21ac-aa9f-4fc1-bee4-24edc2a3f6fd")
+	)
+	(text "Стена (бумажные обой)\nбез обой тоже работает"
+		(exclude_from_sim no)
+		(at 207.01 35.56 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "beae5a0d-d587-404f-b0db-553c3ac7435c")
+	)
+	(text "Диод белый,."
+		(exclude_from_sim no)
+		(at 181.61 121.92 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "c93f969a-acbf-47bb-8f3b-2fb17b074e25")
+	)
+	(text "ТЕЛО"
+		(exclude_from_sim no)
+		(at 72.39 49.53 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "cced3cde-e656-4d4d-b38c-03ccc8003c75")
+	)
+	(text "ОКНО"
+		(exclude_from_sim no)
+		(at 236.22 93.98 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "cef88fb3-93a9-4e86-8e1b-5b9979ded517")
+	)
+	(text "НЕ ПОНЯТНО НАПРАВЛЕНИЕ ПОЛЯ, ТО ЛИ С 5-ВОЛЬ-ПОЛЯ\nТО ли С МОЕГО ТЕЛА-РУКИ-ПОЛЯ"
+		(exclude_from_sim no)
+		(at 81.28 189.23 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "daf131da-1fd3-4e3f-bebd-247c7b5edfdf")
+	)
+	(text "Диод белый,."
+		(exclude_from_sim no)
+		(at 54.61 60.96 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "e46ab975-22e3-4e64-a1f7-0398bcab4ae1")
+	)
+	(text "5 ВОЛЬТ (+ или -)"
+		(exclude_from_sim no)
+		(at 26.67 60.96 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "f6d722ec-b10d-45d6-99be-1c077d46dd6c")
+	)
+	(text "5 ВОЛЬТ (+ или -)"
+		(exclude_from_sim no)
+		(at 26.67 135.89 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "f9628589-9631-4818-8ba7-bed50440444b")
+	)
+	(text "Стена (бумажные обой)\nбез обой тоже работает"
+		(exclude_from_sim no)
+		(at 198.12 97.79 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "ff404f53-85fb-4298-817a-cf580bb6cb66")
+	)
+	(junction
+		(at 205.74 38.1)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "af815b93-4040-4267-b307-d42eb01cc627")
+	)
+	(wire
+		(pts
+			(xy 194.31 55.88) (xy 205.74 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "018beec4-9a2e-4dce-a5c3-9ee5f2693407")
+	)
+	(wire
+		(pts
+			(xy 205.74 38.1) (xy 205.74 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "05e2e9f8-82d0-449f-89db-ca024c284d58")
+	)
+	(wire
+		(pts
+			(xy 72.39 156.21) (xy 76.2 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "080b8cd9-025a-4cc0-96b4-bbf6e048f268")
+	)
+	(wire
+		(pts
+			(xy 205.74 38.1) (xy 207.01 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0e0c2bf6-693e-4c60-8fc5-4d00566ef77e")
+	)
+	(bus
+		(pts
+			(xy 81.28 40.64) (xy 96.52 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "12bdefc4-b913-42a6-a08e-1c834b658dee")
+	)
+	(bus
+		(pts
+			(xy 66.04 153.67) (xy 90.17 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1620eb38-b90a-4c8e-8fab-d6b22cb99249")
+	)
+	(wire
+		(pts
+			(xy 58.42 132.08) (xy 72.39 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3a0f522d-7343-4c7a-acfe-bdbc4b864dda")
+	)
+	(bus
+		(pts
+			(xy 96.52 57.15) (xy 99.06 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3a67f9ee-770b-42e0-b1c1-2ef5eb05fb2c")
+	)
+	(wire
+		(pts
+			(xy 50.8 132.08) (xy 36.83 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "413b662b-cec5-4326-bad2-1b1585b3bfd1")
+	)
+	(wire
+		(pts
+			(xy 199.39 118.11) (xy 215.9 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "44114ebf-6cff-4491-84e8-8ca0df06ec14")
+	)
+	(bus
+		(pts
+			(xy 110.49 153.67) (xy 97.79 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "523cc3df-3f9d-4633-89d0-9c4dd4f57457")
+	)
+	(wire
+		(pts
+			(xy 50.8 57.15) (xy 36.83 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "71613696-555d-453d-8b49-451291bb8a90")
+	)
+	(bus
+		(pts
+			(xy 96.52 154.94) (xy 97.79 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "831ad109-c634-4e3b-99f5-1788704aa8d8")
+	)
+	(wire
+		(pts
+			(xy 185.42 118.11) (xy 199.39 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "84e85a19-5a2e-4c5d-868f-71551fee84cb")
+	)
+	(wire
+		(pts
+			(xy 204.47 38.1) (xy 205.74 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "87440c53-05b9-46d4-abc3-ea0d8a6afeb0")
+	)
+	(wire
+		(pts
+			(xy 72.39 132.08) (xy 72.39 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8d905ddf-c228-4ae6-8c83-8b1b8ed6ce22")
+	)
+	(bus
+		(pts
+			(xy 73.66 60.96) (xy 78.74 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8dd5fdde-ca43-4af5-8649-929acf040ef2")
+	)
+	(bus
+		(pts
+			(xy 78.74 66.04) (xy 78.74 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8e0dcfe1-2a53-4c6c-bdb7-1f91aa1f5f4d")
+	)
+	(wire
+		(pts
+			(xy 177.8 118.11) (xy 163.83 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a5da0ab9-c021-4d84-92d0-2f79fb37e548")
+	)
+	(wire
+		(pts
+			(xy 186.69 55.88) (xy 172.72 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aa7a2915-2333-4dd2-895f-f2688ec7d7c5")
+	)
+	(bus
+		(pts
+			(xy 73.66 40.64) (xy 81.28 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "da0748f6-15ef-4e44-99ac-7658105367de")
+	)
+	(wire
+		(pts
+			(xy 195.58 100.33) (xy 212.09 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e5387123-0354-4635-806f-04a3b829df47")
+	)
+	(wire
+		(pts
+			(xy 215.9 101.6) (xy 219.71 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eaa82095-5d23-4532-a930-a30f7df60d1a")
+	)
+	(wire
+		(pts
+			(xy 58.42 57.15) (xy 69.85 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fc200211-456a-40a2-9279-c4810da53006")
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 36.83 132.08 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "07969ebc-e49d-454a-aaf0-80b1d5299053")
+		(property "Reference" "#PWR011"
+			(at 40.64 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 33.02 132.0799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 36.83 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 36.83 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 36.83 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "356150ae-f787-4850-848c-3b91ccfc3a3d")
+		)
+		(instances
+			(project "SpeedJeck"
+				(path "/1a25ced3-1498-43a7-ad12-183ffd7658ff/10520097-a851-4669-9eb9-1e4d0fdbff92"
+					(reference "#PWR011")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 54.61 57.15 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "155e5dc9-6a17-4ce0-b559-1b8b633cf1b5")
+		(property "Reference" "D3"
+			(at 56.1975 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED"
+			(at 56.1975 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 54.61 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 54.61 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 54.61 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 54.61 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1f8352c4-a100-4d63-a701-59dfba8c9552")
+		)
+		(pin "2"
+			(uuid "b72abec3-b9d5-480b-97dc-e6dd05929cff")
+		)
+		(instances
+			(project "SpeedJeck"
+				(path "/1a25ced3-1498-43a7-ad12-183ffd7658ff/10520097-a851-4669-9eb9-1e4d0fdbff92"
+					(reference "D3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 36.83 57.15 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5c5ac63b-3333-40a1-8857-1d97d5fdf805")
+		(property "Reference" "#PWR08"
+			(at 40.64 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 33.02 57.1499 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 36.83 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 36.83 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 36.83 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "dc4b7577-0a3d-488f-9be3-965cc76c0858")
+		)
+		(instances
+			(project "SpeedJeck"
+				(path "/1a25ced3-1498-43a7-ad12-183ffd7658ff/10520097-a851-4669-9eb9-1e4d0fdbff92"
+					(reference "#PWR08")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 54.61 132.08 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6da73efb-68ae-4cee-805f-91e5bd8317c2")
+		(property "Reference" "D6"
+			(at 56.1975 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED"
+			(at 56.1975 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 54.61 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 54.61 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 54.61 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 54.61 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7e0e4fcb-fa50-4790-a2d8-6d248be66f58")
+		)
+		(pin "2"
+			(uuid "85978bd1-be46-4cd4-94b6-091f4ab2d168")
+		)
+		(instances
+			(project "SpeedJeck"
+				(path "/1a25ced3-1498-43a7-ad12-183ffd7658ff/10520097-a851-4669-9eb9-1e4d0fdbff92"
+					(reference "D6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 172.72 55.88 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "87a68fe3-58c4-44e8-ae48-eae9643a8f55")
+		(property "Reference" "#PWR09"
+			(at 176.53 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 168.91 55.8799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 172.72 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 172.72 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 172.72 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8573b1e4-a32e-4d7c-b2ec-ff0a9b05e197")
+		)
+		(instances
+			(project "SpeedJeck"
+				(path "/1a25ced3-1498-43a7-ad12-183ffd7658ff/10520097-a851-4669-9eb9-1e4d0fdbff92"
+					(reference "#PWR09")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 181.61 118.11 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cf45c99e-e120-402a-bd8a-11600c58cb69")
+		(property "Reference" "D5"
+			(at 183.1975 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED"
+			(at 183.1975 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 181.61 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 181.61 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 181.61 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 181.61 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "615ab536-aa14-44fe-9072-c4d995e1c3ae")
+		)
+		(pin "2"
+			(uuid "725b3f8b-0014-447a-8839-441296705e2f")
+		)
+		(instances
+			(project "SpeedJeck"
+				(path "/1a25ced3-1498-43a7-ad12-183ffd7658ff/10520097-a851-4669-9eb9-1e4d0fdbff92"
+					(reference "D5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 190.5 55.88 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e47ef2d9-81d7-4e00-ac26-7fb6a74d751d")
+		(property "Reference" "D4"
+			(at 192.0875 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED"
+			(at 192.0875 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 190.5 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 190.5 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 190.5 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 190.5 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f86b70ea-e421-4131-9cdb-cf3890d2048a")
+		)
+		(pin "2"
+			(uuid "0f687dd3-11dd-47d5-9d39-4f48d51522bb")
+		)
+		(instances
+			(project "SpeedJeck"
+				(path "/1a25ced3-1498-43a7-ad12-183ffd7658ff/10520097-a851-4669-9eb9-1e4d0fdbff92"
+					(reference "D4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 163.83 118.11 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ea02dd86-8302-442b-b346-f9181e3032d3")
+		(property "Reference" "#PWR010"
+			(at 167.64 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 160.02 118.1099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 163.83 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 163.83 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 163.83 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a77ce3a7-62b0-47af-b7c5-d1fdbfeb7504")
+		)
+		(instances
+			(project "SpeedJeck"
+				(path "/1a25ced3-1498-43a7-ad12-183ffd7658ff/10520097-a851-4669-9eb9-1e4d0fdbff92"
+					(reference "#PWR010")
+					(unit 1)
+				)
+			)
+		)
+	)
+)

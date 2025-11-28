@@ -233,18 +233,6 @@
 				)
 			)
 		)
-		(property "LCSC" "C22355736"
-			(at 0 0 0)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "022106c4-3d9c-414c-b15a-dacfa7da49ad")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property ki_fp_filters "LED* LED_SMD:* LED_THT:*")
 		(path "/66e970b0-c622-4ca7-986a-8a15c7d5f83b")
 		(sheetname "/")
@@ -1513,18 +1501,6 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "8b334985-9347-45b7-974a-c1f3ba5ccf6a")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "LCSC" "C48533754"
-			(at 0 0 0)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "aaa36c49-4e36-4bca-97dc-0cc88e71c4d8")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6176,18 +6152,6 @@
 				)
 			)
 		)
-		(property "LCSC" "C48533754"
-			(at 0 0 0)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "c8402eda-b987-41c0-9c0a-44b6df23161b")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property ki_fp_filters "R_*")
 		(path "/29ef7b2a-3934-4dc5-8cfb-1abf5c4ab907")
 		(sheetname "/")
@@ -8520,18 +8484,6 @@
 			(effects
 				(font
 					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "LCSC" "C965793"
-			(at 0 0 0)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "5cc459d1-368b-4a33-be6f-100190779f16")
-			(effects
-				(font
-					(size 1.27 1.27)
 					(thickness 0.15)
 				)
 			)
