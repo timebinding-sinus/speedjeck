@@ -1,2 +1,2 @@
 # speedjeck
-PCB board base on arduino nano, keyboard emulator, password manager
+PCB board based on arduino nano, keyboard emulator, password manager
